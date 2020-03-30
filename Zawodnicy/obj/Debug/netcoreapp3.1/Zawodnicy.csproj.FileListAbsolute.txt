@@ -1,0 +1,17 @@
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.exe
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.deps.json
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.runtimeconfig.json
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.runtimeconfig.dev.json
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.dll
+D:\_Studia\Programowanie obiektowe\Zawodnicy\bin\Debug\netcoreapp3.1\Zawodnicy.pdb
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.csprojAssemblyReference.cache
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\App.g.cs
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy_MarkupCompile.cache
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy_MarkupCompile.lref
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.g.resources
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.AssemblyInfoInputs.cache
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.AssemblyInfo.cs
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.dll
+D:\_Studia\Programowanie obiektowe\Zawodnicy\obj\Debug\netcoreapp3.1\Zawodnicy.pdb

@@ -1,0 +1,46 @@
+﻿<Window x:Class="Zawodnicy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zawodnicy"
+        mc:Ignorable="d"
+        Title="Zawodnicy - Kamil Donda" Height="450" Width="800"
+        Closing="MainWindows_Closing">
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" Content="Imię" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        <Label Grid.Column="0" Grid.Row="1" Content="Nazwisko" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        <Label Grid.Column="0" Grid.Row="2" Content="Wiek" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        <Label Grid.Column="0" Grid.Row="3" Content="Waga" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+
+        <TextBox Grid.Column="1" Grid.Row="0" Name="getFirstName_tb" HorizontalAlignment="Left" Text="Podaj imię"  VerticalAlignment="Center" Width="120" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextChanged="TextBox_TextChanged" />
+        <TextBox Grid.Column="1" Grid.Row="1" Name="getSecondName_tb" HorizontalAlignment="Left" Text="Podaj nazwisko" VerticalAlignment="Center" Width="120" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextChanged="TextBox_TextChanged" />
+        <ComboBox Name="Age_cb" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Width="50" />
+        <DockPanel VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" Width="250">
+            <TextBox Text="{Binding ElementName=Weight_slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <Slider Minimum="50" Maximum="100" TickFrequency="0.1" IsSnapToTickEnabled="True" Name="Weight_slider" />
+        </DockPanel>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" Width="90">
+            <Button x:Name="Add_button" Content="Dodaj"     Margin="0,20,0,10" Click="Add_button_Click"/>
+            <Button x:Name="Del_button" Content="Usuń"      Margin="0,0,0,10" Click="Del_button_Click"/>
+            <Button x:Name="Mod_button" Content="Modyfikuj" Click="Mod_button_Click" />
+        </StackPanel>
+        <Border BorderThickness="1" BorderBrush="Gray" Grid.Column="2" HorizontalAlignment="Left" Grid.RowSpan="5" Width="1"/>
+        <ListBox Grid.Column="2" Grid.Row="0" Grid.RowSpan="5" Name="Lista_lb" SelectionChanged="Lista_lb_SelectionChanged"/>
+
+    </Grid>
+</Window>

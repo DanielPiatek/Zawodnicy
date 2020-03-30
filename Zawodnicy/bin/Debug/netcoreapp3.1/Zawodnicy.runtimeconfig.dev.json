@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\donda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\donda\\.nuget\\packages"
+    ]
+  }
+}
